@@ -1,6 +1,6 @@
 # R Script zur GWR Auswertung
 
-GWR.R erlaubt es, eine Auswertung der GWR-Daten vorzunehmen. Zusätzlich wird eine EBF-Schätzung für alle Gebäude vorgenommen.<br /> 
+GWR.R erlaubt es, eine Auswertung der GWR-Daten vorzunehmen. Der Output der Auswertung ist eine .xlsx-Datei. Zusätzlich wird eine EBF-Schätzung für alle Gebäude vorgenommen.<br /> 
 Das Schätzungsmodell ist in EBF_Modell.RData enthalten und die Berechnungen dazu sind in meinem Praktikumsordner zu finden.<br /> 
 Für die Schätzung, werden einige extrene Daten benötigt, die direkt im RScript eingebunden werden.<br />  
 
@@ -24,3 +24,6 @@ Dazu kann einfach der gewünschte Path nach -Outfile eingefugt werden (Achtung A
 
 # Python
 Es gibt eine Möglichkeit die Auswertung zu automatisieren. Leider konnte ich diese Dateinen hier nicht hochladen. Auf dem K-Laufwerk der Energie, in der Directory 1GWR_Script_Master, befinden sich die Python-Files und ein ReadMe mit der Installationsanleitung.
+
+# Erklärung Spalteninhalte
+In GWR-Auswertung_Spalteninhalte.xlsx werden die Spalten im Excel-Output erklärt.
