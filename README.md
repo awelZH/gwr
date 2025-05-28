@@ -18,5 +18,9 @@ Externe Daten für EBF-Schätzung:<br />
 Die Auswertung kann mit GWR_R_SCRIPT.bat gestartet werden, sofern es auch in der selben Directory ist.<br /> 
 Tidyverse muss installiert sein(!), ansonsten funktioniert die Auswertung nicht.<br /> 
 
+# Datenbezug
+Die aktuellen GWR-Daten können mit GWR_DL_easy.bat per PowerShell heruntergeladen werden. Vor dem Ausführen muss die .bat-Datei bearbeitet werden und der Outputpath angepasst werden.
+Dazu kann einfach der gewünschte Path nach -Outfile eingefugt werden (Achtung Anführungszeichen werden benötigt).
 
-
+# Python
+Es gibt eine Möglichkeit die Auswertung zu automatisieren. Leider konnte ich diese Dateinen hier nicht hochladen. Auf dem K-Laufwerk der Energie, in der Directory 1GWR_Script_Master, befinden sich die Python-Files und ein ReadMe mit der Installationsanleitung.
